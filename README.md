@@ -4,10 +4,10 @@ Trabalho desenvolvido durante a disciplina de BD
 # Sumário
 
 ### 1.COMPONENTES<br>
-Integrantes do grupo<br>
+Emanoele Cezar Muller (muller.emanoele@hotmail.com)<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Esse trabalho é um projeto do técnico de informática do IFES cujo cada grupo tem o objetivo de criar algum sistema que necessite de banco de dados. Meu objeitvo é criar um site onde é possível que as pessoas (ou sebos) vendam seus livros virtualmente por intermédio desse site.  <br>
 
 ### 3.MINI-MUNDO<br>
 Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
