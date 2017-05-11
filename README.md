@@ -16,14 +16,13 @@ Uma empresa deseja criar um site onde seja possível vários sebos e pessoas fí
 Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho01/blob/master/SeboPlus%20(2).pdf<br>
 
 ### 5.MODELO CONCEITUAL<br>
-    NOTACAO ENTIDADE RELACIONAMENTO
 ![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modeloconceitualf.jpg?raw=true "Modelo Conceitual")
     
     
 
 #### 5.1 Validação do Modelo Conceitual
    [Grupo01]: Álvaro Martins e Gabriel Gonçalvez<br>
-   [Grupo02]: Gabriel Plotheger e Sabrina Leal<br>
+   [Grupo02]: Gabriel Plotegher e Sabrina Leal<br>
 
 #### 5.2 DECISÕES DE PROJETO
 
@@ -33,14 +32,14 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
-   **USUARIO:** Tabela que armazena as informações relativas aos usuários do sistema;<br>
-   **COD_USUARIO:** Código gerado automaticamente para identificar cada;<br>
-   **NOME:** Campo que armazena o nome do usuário;<br>
-   **E-MAIL:** Campo que armazena o e-mail do usuário;<br>
-   **SENHA:** Campo necessário para usuário entrar no sistema; <br>
-   **DATA_NASC:** Campo para o usuário informar a data de nascimento do usuário;<br>
-   **ENDEREÇO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
-   **COMPRA:** Tabela que contém  necessário para se concretizar a compra;<br>
+   - **USUARIO:** Tabela que armazena as informações relativas aos usuários do sistema;<br>
+      * **COD_USUARIO:** Código gerado automaticamente para identificar cada;<br>
+      *  **NOME:** Campo que armazena o nome do usuário;<br>
+      * **E-MAIL:** Campo que armazena o e-mail do usuário;<br>
+      * **SENHA:** Campo necessário para usuário entrar no sistema; <br>
+      * **DATA_NASC:** Campo para o usuário informar a data de nascimento do usuário;<br>
+      * **ENDEREÇO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+   - **COMPRA:** Tabela que contém  necessário para se concretizar a compra;<br>
 
 
 ### 6	MODELO LÓGICO<br>
