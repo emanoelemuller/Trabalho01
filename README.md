@@ -22,8 +22,8 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
     
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: Álvaro Martins e Gabriel Gonçalvez
-    [Grupo02]: Gabriel Plotheger e Sabrina Leal
+   [Grupo01]: Álvaro Martins e Gabriel Gonçalvez<br>
+   [Grupo02]: Gabriel Plotheger e Sabrina Leal<br>
 
 #### 5.2 DECISÕES DE PROJETO
 
@@ -33,15 +33,14 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
-    EXEMPLO:
-    USUARIO: Tabela que armazena as informações relativas aos usuários do sistema;
-    COD_USUARIO: Código gerado automaticamente para identificar cada;
-    NOME: Campo que armazena o nome do usuário;
-    E-MAIL: Campo que armazena o e-mail do usuário;
-    SENHA: Campo necessário para usuário entrar no sistema;
-    DATA_NASC: Campo para o usuário informar a data de nascimento do usuário;
-    ENDEREÇO: Campo multivalorado para usuário escrever o endereço completo dele;
-    COMPRA: Tabela que contém  necessário para se concretizar a compra;
+   **USUARIO:** Tabela que armazena as informações relativas aos usuários do sistema;<br>
+   **COD_USUARIO:** Código gerado automaticamente para identificar cada;<br>
+   **NOME:** Campo que armazena o nome do usuário;<br>
+   **E-MAIL:** Campo que armazena o e-mail do usuário;<br>
+   **SENHA:** Campo necessário para usuário entrar no sistema; <br>
+   **DATA_NASC:** Campo para o usuário informar a data de nascimento do usuário;<br>
+   **ENDEREÇO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+   **COMPRA:** Tabela que contém  necessário para se concretizar a compra;<br>
 
 
 ### 6	MODELO LÓGICO<br>
