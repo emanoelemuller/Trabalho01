@@ -16,29 +16,32 @@ Uma empresa deseja criar um site onde seja possível vários sebos e pessoas fí
 Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho01/blob/master/SeboPlus%20(2).pdf<br>
 
 ### 5.MODELO CONCEITUAL<br>
-    a) NOTACAO ENTIDADE RELACIONAMENTO
+    NOTACAO ENTIDADE RELACIONAMENTO
 ![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modeloconceitualf.jpg?raw=true "Modelo Conceitual")
     
-    b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+    
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: Álvaro Martins e Gabriel
-    [Grupo02]: Gabriel e Sabrina Leal
+    [Grupo01]: Álvaro Martins e Gabriel Gonçalvez
+    [Grupo02]: Gabriel Plotheger e Sabrina Leal
 
 #### 5.2 DECISÕES DE PROJETO
+
+    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, já que o endereço da pessoa é composto por aqueles requisitos
+    b) justifique! 
     [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
-    
     EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    USUARIO: Tabela que armazena as informações relativas aos usuários do sistema;
+    COD_USUARIO: Código gerado automaticamente para identificar cada;
+    NOME: Campo que armazena o nome do usuário;
+    E-MAIL: Campo que armazena o e-mail do usuário;
+    SENHA: Campo necessário para usuário entrar no sistema;
+    DATA_NASC: Campo para o usuário informar a data de nascimento do usuário;
+    ENDEREÇO: Campo multivalorado para usuário escrever o endereço completo dele;
+    COMPRA: Tabela que contém  necessário para se concretizar a compra;
 
 
 ### 6	MODELO LÓGICO<br>
