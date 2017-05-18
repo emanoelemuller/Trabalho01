@@ -16,7 +16,7 @@ Uma empresa deseja criar um site onde seja possível vários sebos e pessoas fí
 Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho01/blob/master/SeboPlus%20(2).pdf<br>
 
 ### 5.MODELO CONCEITUAL<br>
-![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modeloconceitualf.jpg?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/conceitual.jpg?raw=true "Modelo Conceitual")
     
     
 
