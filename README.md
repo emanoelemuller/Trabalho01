@@ -16,10 +16,8 @@ Uma empresa deseja criar um site onde seja possível vários sebos e pessoas fí
 Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho01/blob/master/SeboPlus%20(2).pdf<br>
 
 ### 5.MODELO CONCEITUAL<br>
-![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/conceitual.jpg?raw=true "Modelo Conceitual")
-    
-    
-
+![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modeloconceitual.jpg?raw=true "Modelo Conceitual")
+ 
 #### 5.1 Validação do Modelo Conceitual
    [Grupo01]: Álvaro Martins e Gabriel Gonçalvez<br>
    [Grupo02]: Gabriel Plotegher e Sabrina Leal<br>
@@ -43,6 +41,7 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
 
 
 ### 6	MODELO LÓGICO<br>
+![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modelologico.jpg?raw=true "Modelo Conceitual")
 ### 7	MODELO FÍSICO<br>
 
         Entrega até este ponto em (data a ser definida)
