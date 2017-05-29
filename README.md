@@ -44,7 +44,9 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
 ![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modelologico.jpg?raw=true "Modelo Conceitual")
 ### 7	MODELO FÍSICO<br>
 
-CREATE TABLE USUARIO ( <br>
+create database bancoseboplus;<br>
+USE bancoseboplus;<br>
+CREATE TABLE USUARIO (<br> 
 Codigo_do_usuario INTEGER PRIMARY KEY,<br>
 rua VARCHAR(50),<br>
 bairro VARCHAR(50),<br>
@@ -56,8 +58,8 @@ CPF NUMERIC(12),<br>
 nome_usuario VARCHAR(20),<br>
 email VARCHAR(40),<br>
 senha VARCHAR(20),<br>
-data_nasc DATETIME<br>
-)<br>
+data_nasc DATE<br>
+);<br>
 
 CREATE TABLE TIPO_PAGAMENTO_CARTAO_BOLETO (<br>
 codigo_pagamento VARCHAR(15) PRIMARY KEY,<br>
@@ -69,18 +71,18 @@ data_Validade DATETIME,<br>
 cod_seguranca VARCHAR(3),<br>
 nome_titular VARCHAR(20),<br>
 codigo_boleto NUMERIC(20),<br>
-data_vencimento DATETIME<br>
-)<br>
+data_vencimento DATE<br>
+);<br>
 
-CREATE TABLE TITULO_LIVRO (
-peso NUMERIC(70),
-ano_de_lancamento DATETIME,
-autor VARCHAR(40),
-isbn NUMERIC(13) PRIMARY KEY,
-idioma VARCHAR(20),
-editora VARCHAR(40),
-nome_autor VARCHAR(50)
-)
+CREATE TABLE TITULO_LIVRO ( <br>
+peso NUMERIC(30),<br>
+ano_de_lancamento DATE,<br>
+autor VARCHAR(40), <br>
+isbn NUMERIC(13) PRIMARY KEY, <br> 
+idioma VARCHAR(20), <br>
+editora VARCHAR(40), <br>
+nome_autor VARCHAR(50) <br>
+);<br>
 
 CREATE TABLE EXEMPLAR (<br>
 codigo VARCHAR(10) PRIMARY KEY,<br>
@@ -91,27 +93,27 @@ habilitar_conversa VARCHAR(10),<br>
 preco VARCHAR(5),<br>
 FOREIGN KEY(isbn) REFERENCES TITULO_LIVRO (isbn),<br>
 FOREIGN KEY(Codigo_do_usuario) REFERENCES USUARIO (Codigo_do_usuario)<br>
-)<br>
+);<br>
 
 CREATE TABLE conversa (<br>
 Codigo_do_usuario INTEGER,<br>
 possui_Codigo_do_usuario INTEGER,<br>
 mensagem VARCHAR(300)<br>
-)<br>
+);<br>
 
-CREATE TABLE Procura/cadastra (<br>
-isbn INTEGER,<br>
+CREATE TABLE Procura_cadastra (<br>
+isbn numeric(13),<br>
 Codigo_do_usuario INTEGER,<br>
 FOREIGN KEY(isbn) REFERENCES TITULO_LIVRO (isbn),<br>
 FOREIGN KEY(Codigo_do_usuario) REFERENCES USUARIO (Codigo_do_usuario)<br>
-)<br>
+);<br>
 
 CREATE TABLE COMPRA (<br>
 codigo_pagamento VARCHAR(15),<br>
 codigo VARCHAR(10),<br>
 Codigo_do_usuario INTEGER,<br>
 PRIMARY KEY(codigo_pagamento,codigo,Codigo_do_usuario)<br>
-)<br>
+);<br>
 
 
  
