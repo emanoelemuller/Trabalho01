@@ -77,7 +77,7 @@ data_vencimento DATE<br>
 CREATE TABLE TITULO_LIVRO ( <br>
 peso NUMERIC(30),<br>
 ano_de_lancamento DATE,<br>
-autor VARCHAR(40), <br>
+nome_livro VARCHAR(40), <br>
 isbn NUMERIC(13) PRIMARY KEY, <br> 
 idioma VARCHAR(20), <br>
 editora VARCHAR(40), <br>
