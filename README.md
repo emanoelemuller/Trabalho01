@@ -27,6 +27,39 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, já que o endereço da pessoa é composto por aqueles requisitos
     b) justifique! 
     [atributo]: [descrição da decisão]
+   - **USUARIO:** Tabela que armazena as informações relativas aos usuários do sistema;<br>
+      * **COD_USUARIO:** Código gerado automaticamente para identificar cada;<br>
+      *  **NOME:** Campo que armazena o nome do usuário;<br>
+      * **E-MAIL:** Campo que armazena o e-mail do usuário;<br>
+      * **SENHA:** Campo necessário para usuário entrar no sistema; <br>
+      * **DATA_NASC:** Campo para o usuário informar a data de nascimento do usuário;<br>
+      * **ENDEREÇO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+   - **TITULO_DO_LIVRO:** Tabela que contém a identificação de um livro<br>
+      * **ISBN:** Código gerado automaticamente para identificar cada;<br>
+      *  **AUTOR:** Campo que armazena o nome do usuário;<br>
+      * **EDITORA:** Campo que armazena o e-mail do usuário;<br>
+      * **NOME_LIVRO:** Campo necessário para usuário entrar no sistema; <br>
+      * **IDOMA:** Campo para o usuário informar a data de nascimento do usuário;<br>
+      * **ANO_DE_LANÇAMENTO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+      * **PESO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+   - **EXEMPLAR:** Tabela que contém a identificação de um livro<br>
+      * **DESCRICAO:** Código gerado automaticamente para identificar cada;<br>
+      *  **HABILITAR_CONVERSA:** Campo que armazena o nome do usuário;<br>
+      * **PRECO:** Campo que armazena o e-mail do usuário;<br>
+      * **CODIGO:** Campo necessário para usuário entrar no sistema; <br>
+   - **TIPO_DE PAGAMENTO:** Tabela que contém a identificação de um livro<br>
+      * **CODIGO_PAGAMENTO:** Código gerado automaticamente para identificar cada;<br>
+      *  **TIPO_PAGAMENTO:** Campo que armazena o nome do usuário;<br>
+      * **NOTA_FISCAL:** Campo que armazena o e-mail do usuário;<br>
+   - **CARTAO:** Estreitamento da tabela tipo_pagmento<br>
+      * **BANDEIRA_CARTAO:** Código gerado automaticamente para identificar cada;<br>
+      *  **NUMERO_CARTAO:** Campo que armazena o nome do usuário;<br>
+      * **NOME_TITULAR:** Campo que armazena o e-mail do usuário;<br>
+      * **DATA_VALIDADE:** Campo necessário para usuário entrar no sistema; <br>
+      * **COD_SEGURANCA:** Campo para o usuário informar a data de nascimento do usuário;<br>
+   - **BOLETO:** Estreitamento da tabela tipo_pagmento<br>
+      * **DATA_VENCIMENTO:** Código gerado automaticamente para identificar cada;<br>
+      *  **COD_BOLETO:** Campo que armazena o nome do usuário;<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
@@ -37,9 +70,33 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
       * **SENHA:** Campo necessário para usuário entrar no sistema; <br>
       * **DATA_NASC:** Campo para o usuário informar a data de nascimento do usuário;<br>
       * **ENDEREÇO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
-   - **COMPRA:** Tabela que contém  necessário para se concretizar a compra;<br>
-
-
+   - **TITULO_DO_LIVRO:** Tabela que contém a identificação de um livro<br>
+      * **ISBN:** Código gerado automaticamente para identificar cada;<br>
+      *  **AUTOR:** Campo que armazena o nome do usuário;<br>
+      * **EDITORA:** Campo que armazena o e-mail do usuário;<br>
+      * **NOME_LIVRO:** Campo necessário para usuário entrar no sistema; <br>
+      * **IDOMA:** Campo para o usuário informar a data de nascimento do usuário;<br>
+      * **ANO_DE_LANÇAMENTO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+      * **PESO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+   - **EXEMPLAR:** Tabela que contém a identificação de um livro<br>
+      * **DESCRICAO:** Código gerado automaticamente para identificar cada;<br>
+      *  **HABILITAR_CONVERSA:** Campo que armazena o nome do usuário;<br>
+      * **PRECO:** Campo que armazena o e-mail do usuário;<br>
+      * **CODIGO:** Campo necessário para usuário entrar no sistema; <br>
+   - **TIPO_DE PAGAMENTO:** Tabela que contém a identificação de um livro<br>
+      * **CODIGO_PAGAMENTO:** Código gerado automaticamente para identificar cada;<br>
+      *  **TIPO_PAGAMENTO:** Campo que armazena o nome do usuário;<br>
+      * **NOTA_FISCAL:** Campo que armazena o e-mail do usuário;<br>
+   - **CARTAO:** Estreitamento da tabela tipo_pagmento<br>
+      * **BANDEIRA_CARTAO:** Código gerado automaticamente para identificar cada;<br>
+      *  **NUMERO_CARTAO:** Campo que armazena o nome do usuário;<br>
+      * **NOME_TITULAR:** Campo que armazena o e-mail do usuário;<br>
+      * **DATA_VALIDADE:** Campo necessário para usuário entrar no sistema; <br>
+      * **COD_SEGURANCA:** Campo para o usuário informar a data de nascimento do usuário;<br>
+   - **BOLETO:** Estreitamento da tabela tipo_pagmento<br>
+      * **DATA_VENCIMENTO:** Código gerado automaticamente para identificar cada;<br>
+      *  **COD_BOLETO:** Campo que armazena o nome do usuário;<br>
+      
 ### 6	MODELO LÓGICO<br>
 ![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modelologico.jpg?raw=true "Modelo Conceitual")
 ### 7	MODELO FÍSICO<br>
