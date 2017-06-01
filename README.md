@@ -28,41 +28,40 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
     b) justifique! 
     [atributo]: [descrição da decisão]
    - **USUARIO:** Tabela que armazena as informações relativas aos usuários do sistema;<br>
-      * **COD_USUARIO:** Código gerado automaticamente para identificar cada;<br>
-      *  **NOME:** Campo que armazena o nome do usuário;<br>
-      * **E-MAIL:** Campo que armazena o e-mail do usuário;<br>
-      * **SENHA:** Campo necessário para usuário entrar no sistema; <br>
-      * **DATA_NASC:** Campo para o usuário informar a data de nascimento do usuário;<br>
-      * **ENDEREÇO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+      * **COD_USUARIO:** Importante para identificar cada usuário;<br>
+      *  **NOME:** Identificado o usuári opara o sitema ser mais amigável;<br>
+      * **E-MAIL:** É como o uduário entra no sistema;<br>
+      * **SENHA:** É como o usuário entra no sistema; <br>
+      * **DATA_NASC:** Importante para o marketing;<br>
+      * **ENDEREÇO:** Importante para calcular o frete;<br>
    - **TITULO_DO_LIVRO:** Tabela que contém a identificação de um livro<br>
-      * **ISBN:** Código gerado automaticamente para identificar cada;<br>
-      *  **AUTOR:** Campo que armazena o nome do usuário;<br>
-      * **EDITORA:** Campo que armazena o e-mail do usuário;<br>
-      * **NOME_LIVRO:** Campo necessário para usuário entrar no sistema; <br>
-      * **IDOMA:** Campo para o usuário informar a data de nascimento do usuário;<br>
-      * **ANO_DE_LANÇAMENTO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
-      * **PESO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
+      * **ISBN:** Importante para identificar cada livro;<br>
+      *  **AUTOR:** Dado do livro;<br>
+      * **EDITORA:** Dado do livro;<br>
+      * **NOME_LIVRO:** Dado do livro; <br>
+      * **IDIOMA:**Dado do livro;<br>
+      * **ANO_DE_LANÇAMENTO:** Dado do livro importante para diferenciar edições do livro;<br>
+      * **PESO:** Campo para calcular o preço do frete;<br>
    - **EXEMPLAR:** Tabela que contém a identificação de um livro<br>
-      * **DESCRICAO:** Código gerado automaticamente para identificar cada;<br>
-      *  **HABILITAR_CONVERSA:** Campo que armazena o nome do usuário;<br>
-      * **PRECO:** Campo que armazena o e-mail do usuário;<br>
+      * **DESCRICAO:** Importante para para descreve ro livro que vai ser comprado;<br>
+      *  **HABILITAR_CONVERSA:** Necessário para habilitar a conversa sobre o livro;<br>
+      * **PRECO:** Necessário para o preço;<br>
       * **CODIGO:** Campo necessário para usuário entrar no sistema; <br>
-   - **TIPO_DE PAGAMENTO:** Tabela que contém a identificação de um livro<br>
-      * **CODIGO_PAGAMENTO:** Código gerado automaticamente para identificar cada;<br>
-      *  **TIPO_PAGAMENTO:** Campo que armazena o nome do usuário;<br>
-      * **NOTA_FISCAL:** Campo que armazena o e-mail do usuário;<br>
-   - **CARTAO:** Estreitamento da tabela tipo_pagmento<br>
-      * **BANDEIRA_CARTAO:** Código gerado automaticamente para identificar cada;<br>
-      *  **NUMERO_CARTAO:** Campo que armazena o nome do usuário;<br>
-      * **NOME_TITULAR:** Campo que armazena o e-mail do usuário;<br>
-      * **DATA_VALIDADE:** Campo necessário para usuário entrar no sistema; <br>
-      * **COD_SEGURANCA:** Campo para o usuário informar a data de nascimento do usuário;<br>
-   - **BOLETO:** Estreitamento da tabela tipo_pagmento<br>
-      * **DATA_VENCIMENTO:** Código gerado automaticamente para identificar cada;<br>
-      *  **COD_BOLETO:** Campo que armazena o nome do usuário;<br>
+   - **TIPO_DE PAGAMENTO:** Define o pagamento que o usuário escolheu<br>
+      * **CODIGO_PAGAMENTO:** Identifica a compra;<br>
+      *  **TIPO_PAGAMENTO:** Necessário para definir qual pagamento o usuário vai decidir;<br>
+      * **NOTA_FISCAL:** Campo necessário para aprovar a venda;<br>
+   - **CARTAO:** Estreitamento da tabela tipo_pagmento para definir a forma de pagamento<br>
+      * **BANDEIRA_CARTAO:** Necessário para a aprovação da venda no cartão;<br>
+      *  **NUMERO_CARTAO:** Necessário para a aprovação da venda no cartão;<br>
+      * **NOME_TITULAR:** Necessário para a aprovação da venda no cartão;<br>
+      * **DATA_VALIDADE:** Campo necessário para ver se o cartão está válido; <br>
+      * **COD_SEGURANCA:** Necessário para a aprovação da venda no cartão;<br>
+   - **BOLETO:** Estreitamento da tabela tipo_pagmento para dividir as formas de pagamento<br>
+      * **DATA_VENCIMENTO:** Tem como função ter uma data final para o pagamento do boleto;<br>
+      *  **COD_BOLETO:** Tem o objetivo de gerar um código para que o boleto seja pago;<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
    - **USUARIO:** Tabela que armazena as informações relativas aos usuários do sistema;<br>
       * **COD_USUARIO:** Código gerado automaticamente para identificar cada;<br>
       *  **NOME:** Campo que armazena o nome do usuário;<br>
@@ -71,31 +70,31 @@ Link para ver o rascunho do sistema: https://github.com/emanoelemuller/Trabalho0
       * **DATA_NASC:** Campo para o usuário informar a data de nascimento do usuário;<br>
       * **ENDEREÇO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
    - **TITULO_DO_LIVRO:** Tabela que contém a identificação de um livro<br>
-      * **ISBN:** Código gerado automaticamente para identificar cada;<br>
-      *  **AUTOR:** Campo que armazena o nome do usuário;<br>
-      * **EDITORA:** Campo que armazena o e-mail do usuário;<br>
-      * **NOME_LIVRO:** Campo necessário para usuário entrar no sistema; <br>
-      * **IDOMA:** Campo para o usuário informar a data de nascimento do usuário;<br>
-      * **ANO_DE_LANÇAMENTO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
-      * **PESO:** Campo multivalorado para usuário escrever o endereço completo dele;<br>
-   - **EXEMPLAR:** Tabela que contém a identificação de um livro<br>
-      * **DESCRICAO:** Código gerado automaticamente para identificar cada;<br>
-      *  **HABILITAR_CONVERSA:** Campo que armazena o nome do usuário;<br>
-      * **PRECO:** Campo que armazena o e-mail do usuário;<br>
-      * **CODIGO:** Campo necessário para usuário entrar no sistema; <br>
-   - **TIPO_DE PAGAMENTO:** Tabela que contém a identificação de um livro<br>
-      * **CODIGO_PAGAMENTO:** Código gerado automaticamente para identificar cada;<br>
-      *  **TIPO_PAGAMENTO:** Campo que armazena o nome do usuário;<br>
-      * **NOTA_FISCAL:** Campo que armazena o e-mail do usuário;<br>
-   - **CARTAO:** Estreitamento da tabela tipo_pagmento<br>
-      * **BANDEIRA_CARTAO:** Código gerado automaticamente para identificar cada;<br>
-      *  **NUMERO_CARTAO:** Campo que armazena o nome do usuário;<br>
-      * **NOME_TITULAR:** Campo que armazena o e-mail do usuário;<br>
-      * **DATA_VALIDADE:** Campo necessário para usuário entrar no sistema; <br>
-      * **COD_SEGURANCA:** Campo para o usuário informar a data de nascimento do usuário;<br>
-   - **BOLETO:** Estreitamento da tabela tipo_pagmento<br>
-      * **DATA_VENCIMENTO:** Código gerado automaticamente para identificar cada;<br>
-      *  **COD_BOLETO:** Campo que armazena o nome do usuário;<br>
+      * **ISBN:** Código de livros;<br>
+      *  **AUTOR:** Campo que armazena o nome do autor do livro;<br>
+      * **EDITORA:** Campo que guarda o nome da editora do livro;<br>
+      * **NOME_LIVRO:** Campo que armazena o nome do livro; <br>
+      * **IDIOMA:** Campo que contém o idioma do livro;<br>
+      * **ANO_DE_LANÇAMENTO:** Campo que contém o ano de laçamento do livro;<br>
+      * **PESO:** Campo com o peso do livro;<br>
+   - **EXEMPLAR:** Tabela que contém o exemplar de um livro <br>
+      * **DESCRICAO:** Campo em que o usuário deve inserir uma breve descrição sobre o exemplar;<br>
+      *  **HABILITAR_CONVERSA:** Campo que armazena  um dado que habilita a conversa entre usuários interessados no exemplar<br>
+      * **PRECO:** Campo que armazena o preço que o usuário quer vender o livro;<br>
+      * **CODIGO:** Campo gerado automaticamente para identificar um exemplar à venda; <br>
+   - **TIPO_DE PAGAMENTO:** Tabela que armazena os dados para o pagamento de um exemplar<br>
+      * **CODIGO_PAGAMENTO:** Código gerado automaticamente para o pagamento;<br>
+      *  **TIPO_PAGAMENTO:** Campo que tipo de pagamento o usuário escolher;<br>
+      * **NOTA_FISCAL:** Campo gerado automaticamente com a nota fiscal da compra;<br>
+   - **CARTAO:** Estreitamento da tabela tipo_pagmento com os dados do cartão do usuário<br>
+      * **BANDEIRA_CARTAO:** Campo que armazena a bandeira do cartão de crédito do usuário;<br>
+      *  **NUMERO_CARTAO:** Campo que armazena o número do cartão de crédito;<br>
+      * **NOME_TITULAR:** Campo que armazena o nome do titular do cartão;<br>
+      * **DATA_VALIDADE:** Campo para o usuário colocar a data de validade do cartão; <br>
+      * **COD_SEGURANCA:** Campo para o usuário informar o código de segurança do cartão<br>
+   - **BOLETO:** Estreitamento da tabela tipo_pagmento que gera um boleto<br>
+      * **DATA_VENCIMENTO:** Campo de data com o vencimento do boleto<br>
+      *  **COD_BOLETO:** Código gerado automaticamente para fazer o pagamento via boleto<br>
       
 ### 6	MODELO LÓGICO<br>
 ![Alt text](https://github.com/emanoelemuller/Trabalho01/blob/master/modelologico.jpg?raw=true "Modelo Conceitual")
